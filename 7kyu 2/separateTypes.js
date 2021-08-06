@@ -1,3 +1,10 @@
+/*
+|--------------------------------------------------------------------------
+| Separate basic types
+|--------------------------------------------------------------------------
+|
+*/
+
 function separateTypes(input) {
    let obj = {};
    const num = input.filter(el => typeof el == "number");

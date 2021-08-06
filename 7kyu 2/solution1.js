@@ -1,3 +1,10 @@
+/*
+|--------------------------------------------------------------------------
+| String ends with?
+|--------------------------------------------------------------------------
+|
+*/
+
 function solution(str, ending) {
    const revEnd = ending.split("").reverse();
    const len = revEnd.length;

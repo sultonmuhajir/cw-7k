@@ -1,3 +1,10 @@
+/*
+|--------------------------------------------------------------------------
+| Sum of integers in string
+|--------------------------------------------------------------------------
+|
+*/
+
 function sumOfIntegersInString(s) {
    let num = s.match(/\d+/g);
    return num != null ? num.map(Number).reduce((acc, curr) => acc + curr) : 0;
