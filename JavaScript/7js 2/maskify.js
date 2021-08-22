@@ -29,6 +29,5 @@ function maskify(cc) {
 
 
 console.log(maskify("okegays"));
-console.log(maskify("diancamry!"));
 console.log(maskify("18g"));
 console.log(maskify("8el"));
