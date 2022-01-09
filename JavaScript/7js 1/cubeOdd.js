@@ -37,5 +37,5 @@ function cubeOdd(arr) {
 console.log(cubeOdd([1, 2, 3, 4]), 28);
 console.log(cubeOdd([-3, -2, 2, 3]), 0);
 console.log(cubeOdd(["a", 12, 9, "z", 42]), undefined);
-console.log(cubeOdd([]), undefined);
-console.log(cubeOdd([2, 4]), undefined);
+console.log(cubeOdd([]), 0);
+console.log(cubeOdd([2, 4]), 0);
