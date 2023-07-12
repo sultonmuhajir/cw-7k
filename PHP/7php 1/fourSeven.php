@@ -7,12 +7,12 @@
 */
 
 function solution($n) {
-   return [4 => 7, 7 => 4][$n];
+   return 4*($n==7) + 7*($n==4);
 }
 
 
 function solution($n) {
-   return 4*($n==7) + 7*($n==4);
+   return [4 => 7, 7 => 4][$n];
 }
 
 
